@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: #333333;
+    --color-text-muted: #525151;
+    --color-text-inverted: #f7f7f7;
+    --color-fill: #ffffff;
+    --color-fill-muted: #f7f7f7;
+    --color-fill-inverted: #333333;
+    --color-text-primary: #104df5;
+  }
+
+  .theme-light {
+    --color-text-base: #1a1919;
+    --color-text-muted: #414141;
+    --color-text-primary: #104df5;
+    --color-text-inverted: #e9e8ef;
+    --color-fill: #e9e8ef;
+    --color-fill-muted: #d7d4d4;
+    --color-fill-inverted: #1a1919;
+  }
+
+  .theme-dark {
+    --color-text-base: #ffffff;
+    --color-text-muted: #9e9d9d;
+    --color-text-primary: #e48f10;
+    --color-text-inverted: #1a1734;
+    --color-fill: #1a1734;
+    --color-fill-muted: #1e1b3e;
+    --color-fill-inverted: #e9e8ef;
+  }
+
+  h1 {
+    @apply text-2xl xl:whitespace-nowrap 2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl;
+  }
+  h2 {
+    @apply text-xl xl:whitespace-nowrap 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl;
+  }
+  h3 {
+    @apply text-xl 2xl:text-4xl xl:text-3xl lg:text-2xl;
+  }
+
+  p {
+    @apply text-[14px] 2xl:text-2xl xl:text-xl md:text-lg;
+  }
+
+  a {
+    @apply text-lg 2xl:text-2xl xl:text-xl hover:text-skin-primary;
+  }
+
+  section {
+    @apply py-6 2xl:py-36 xl:py-24 lg:py-20 md:py-16;
+  }
+
+  .ease {
+    transition: all 0.35s ease-in-out;
+  }
+}
