@@ -4,7 +4,7 @@ export default function Hero(props) {
   return (
     <section>
       <div
-        className={`flex justify-center w-screen bg-skin-fill place-items-center flex-wrap-reverse md:space-x-[5%] lg:space-x-[10%] space-x-0 md:flex-nowrap`}
+        className={`flex justify-center w-screen bg-skin-fill place-items-center flex-wrap-reverse md:space-x-[5%] lg:space-x-[10%] space-x-0 md:flex-nowrap py-10 lg:py-24`}
       >
         <div className="flex flex-col justify-center place-items-center bg-skin-skill text-skin-base max-w-[400px] lg:max-w-[500px] px-5 lg:p-0">
           <div className="flex flex-col space-y-4 lg:space-y-5">

@@ -7,15 +7,10 @@ export default function Footer(props) {
   return (
     <>
       <div className="flex flex-col justify-center w-full py-10 space-y-4 bg-skin-muted text-skin-base place-items-center">
-        <p className="text-lg">
-          {new Date().getFullYear()} - Created by Gabe Sabella
+        <p className="font-mono text-lg">
+          {new Date().getFullYear()} - Gabe Sabella
         </p>
-        {/* <div className="flex space-x-8 uppercase">
-          <a href="/">home</a>
-          <a href="/">about</a>
-          <a href="/">projects</a>
-          <a href="/">contact</a>
-        </div> */}
+
         <div className="flex space-x-8 text-lg">
           <a href="https://www.linkedin.com/in/gabriel-sabella-188311260/">
             <div className="p-3 rounded-full bg-skin-inverted text-skin-inverted hover:brightness-110">

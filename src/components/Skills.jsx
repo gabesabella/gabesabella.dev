@@ -4,7 +4,7 @@ import js from "../img/skills/frontend/js.png";
 import ts from "../img/skills/frontend/ts.png";
 import react from "../img/skills/frontend/react.png";
 import html from "../img/skills/frontend/html.svg";
-import css from "../img/skills/frontend/css.png";
+// import css from "../img/skills/frontend/css.png";
 import sass from "../img/skills/frontend/sass.png";
 import tw from "../img/skills/frontend/tw.png";
 // Backend tech
@@ -29,7 +29,7 @@ export default function Skills() {
         <h2 className="p-10 font-bold uppercase">Skills</h2>
         {/* Frontend */}
         <p className="font-mono font-light ">Frontend</p>
-        <div className="flex flex-wrap space-x-5">
+        <div className="grid grid-cols-3 gap-x-3 md:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img src={js} className="w-full h-16" alt="javascript logo" />
             <p className="text-[12px] text-center">JavaScript</p>
@@ -41,7 +41,7 @@ export default function Skills() {
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img
               src={react}
-              className="w-full h-16 p-2 bg-indigo-900 rounded"
+              className="w-16 h-full p-2 bg-indigo-900 rounded"
               alt="react logo"
             />
             <p className="text-[12px] text-center">React</p>
@@ -50,12 +50,12 @@ export default function Skills() {
             <img src={html} className="w-full h-16" alt="html logo" />
             <p className="text-[12px] text-center">HTML</p>
           </div>
-          <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
+          {/* <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img src={css} className="w-full h-16" alt="css logo" />
             <p className="text-[12px] text-center">CSS</p>
-          </div>
+          </div> */}
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
-            <img src={sass} className="w-full h-16" alt="sass logo" />
+            <img src={sass} className="w-16 h-full" alt="sass logo" />
             <p className="text-[12px] text-center">SCSS</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
@@ -65,9 +65,21 @@ export default function Skills() {
         </div>
         {/* Backend */}
         <p className="font-mono font-light">Backend</p>
-        <div className="flex flex-wrap space-x-5">
+        <div className="grid grid-cols-3 lg:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
-            <img src={sql} className="w-full h-16" alt="sql logo" />
+            <img
+              src={sql}
+              className="w-16 h-full bg-orange-300 rounded-full"
+              alt="sql logo"
+            />
+            <p className="text-[12px] text-center">SQL</p>
+          </div>
+          <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
+            <img
+              src={sql}
+              className="w-16 h-full bg-orange-300 rounded-full"
+              alt="sql logo"
+            />
             <p className="text-[12px] text-center">SQL</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
@@ -79,7 +91,7 @@ export default function Skills() {
             <p className="text-[12px] text-center">Python</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
-            <img src={django} className="w-full h-16" alt="java logo" />
+            <img src={django} className="w-16 h-full" alt="java logo" />
             <p className="text-[12px] text-center">Django</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
@@ -89,21 +101,33 @@ export default function Skills() {
         </div>
         {/* Other */}
         <p className="font-mono font-light">Other</p>
-        <div className="flex flex-wrap space-x-5">
+        <div className="flex flex-wrap ">
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img src={git} className="w-full h-16" alt="git logo" />
             <p className="text-[12px] text-center">Git</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
-            <img src={vercel} className="w-full h-16" alt="vercel logo" />
+            <img
+              src={vercel}
+              className="w-16 h-full p-1 bg-purple-300 rounded"
+              alt="vercel logo"
+            />
             <p className="text-[12px] text-center">Vercel</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
-            <img src={prisma} className="w-full h-16" alt="prisma logo" />
+            <img
+              src={prisma}
+              className="w-full h-16 p-1 rounded bg-amber-300"
+              alt="prisma logo"
+            />
             <p className="text-[12px] text-center">Primsa</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
-            <img src={railway} className="w-full h-16" alt="railway logo" />
+            <img
+              src={railway}
+              className="w-full h-16 bg-orange-500 rounded-full"
+              alt="railway logo"
+            />
             <p className="text-[12px] text-center">Railway</p>
           </div>
         </div>

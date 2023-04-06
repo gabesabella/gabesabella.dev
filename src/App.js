@@ -75,7 +75,7 @@ function App() {
           {/* Fullscreen Nav */}
           <div className={`sm:flex ${mobileNav}`}>
             <div
-              className={`flex sm:justify-end w-full space-x-8 sm:flex-row place-items-center ${mobileNavItems}`}
+              className={`flex sm:justify-end w-full space-x-4 md:space-x-8 sm:flex-row place-items-center ${mobileNavItems}`}
             >
               <Link to="#projects" smooth>
                 Projects

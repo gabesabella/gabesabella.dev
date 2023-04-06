@@ -17,96 +17,96 @@ export default function Projects() {
     <div id="projects">
       <h2 className="pb-5 text-center uppercase text-skin-base">Projects</h2>
       <div className="flex justify-center w-screen">
-        <div className="grid gap-5 md:gap-24 max-w-[1400px] grid-cols-1 lg:grid-cols-2">
+        <div className="grid gap-x-12 gap-y-12 md:gap-y-16 lg:gap-y-24 max-w-[1400px] grid-cols-1 md:grid-cols-2">
           <a
             href="https://johnnygoodman.vercel.app/"
-            className="flex md:py-6 px-3 flex-wrap justify-center  hover:scale-[105%] ease"
+            className="flex px-2  hover:scale-[105%] ease "
           >
             <img
               src={p1d}
               alt="First project desktop version"
-              className="w-[400px]"
+              className="w-[250px] md:w-[300px] lg:w-[400px]"
             />
             <img
               src={p1m}
               alt="First project mobile version"
-              className="bg-cover h-[220px] translate-y-6"
+              className="bg-cover h-[140px] md:h-[170px] lg:h-[220px] translate-y-6"
             />
           </a>
           <a
             href="https://gregsshop.vercel.app"
-            className="flex  md:py-6 px-3 flex-wrap   justify-center hover:scale-[105%] ease"
+            className="flex px-2  hover:scale-[105%] ease"
           >
             <img
               src={p2d}
               alt="First project desktop version"
-              className="w-[400px]"
+              className="w-[250px] md:w-[300px] lg:w-[400px]"
             />
 
             <img
               src={p2m}
               alt="First project desktop version"
-              className="bg-cover h-[220px] translate-y-6"
+              className="bg-cover h-[140px] md:h-[170px] lg:h-[220px] translate-y-6"
             />
           </a>
           <a
             href="https://rightflight.vercel.app"
-            className="flex  md:py-6 px-3 flex-wrap  justify-center hover:scale-[105%] ease"
+            className="flex  px-2 ustify-center hover:scale-[105%] ease"
           >
             <img
               src={p3d}
               alt="First project desktop version"
-              className="w-[400px]"
+              className="w-[250px] md:w-[300px] lg:w-[400px]"
             />
             <img
               src={p3m}
               alt="First project desktop version"
-              className="bg-cover h-[220px] translate-y-6"
+              className="bg-cover h-[140px] md:h-[170px] lg:h-[220px] translate-y-6"
             />
           </a>
           <a
             href="https://bored-api-app.vercel.app/"
-            className="flex  md:py-6 px-3 flex-wrap justify-center hover:scale-[105%] ease"
+            className="flex px-2 stify-center hover:scale-[105%] ease"
           >
             <img
               src={p4d}
               alt="First project desktop version"
-              className="w-[400px]"
+              className="w-[250px] md:w-[300px] lg:w-[400px]"
             />
             <img
               src={p4m}
               alt="First project desktop version"
-              className="bg-cover h-[220px] translate-y-6"
+              className="bg-cover h-[140px] md:h-[170px] lg:h-[220px] translate-y-6"
             />
           </a>
           <a
             href="https://poster-5wxj.vercel.app/"
-            className="flex  md:py-6 px-3 flex-wrap  justify-center hover:scale-[105%] ease"
+            className="flex  px-2 ustify-center hover:scale-[105%] ease"
           >
             <img
               src={p5d}
               alt="First project desktop version"
-              className="w-[400px]"
+              className="w-[250px] md:w-[300px] lg:w-[400px]"
             />
             <img
               src={p5m}
               alt="First project desktop version"
-              className="bg-cover h-[220px] translate-y-6"
+              className="bg-cover h-[140px] md:h-[170px] lg:h-[220px] translate-y-6"
             />
           </a>
           <a
             href="https://todo-pi-nine.vercel.app/"
-            className="flex  md:py-6 px-3 flex-wrap  justify-center hover:scale-[105%] ease"
+            className="flex  px-2 ustify-center hover:scale-[105%] ease"
           >
             <img
               src={p6d}
               alt="First project desktop version"
-              className="w-[400px]"
+              className="w-[250px] md:w-[300px] lg:w-[400px]"
             />
             <img
               src={p6m}
               alt="First project desktop version"
-              className="bg-cover h-[220px] translate-y-6"
+              className="bg-cover h-[140px] md:h-[170px] lg:h-[220px] translate-y-6"
             />
           </a>
         </div>
