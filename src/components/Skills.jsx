@@ -9,6 +9,7 @@ import sass from "../img/skills/frontend/sass.png";
 import tw from "../img/skills/frontend/tw.png";
 // Backend tech
 import django from "../img/skills/backend/django.png";
+import flask from "../img/skills/backend/flask.png";
 import java from "../img/skills/backend/java.png";
 import mongo from "../img/skills/backend/mongo.webp";
 import python from "../img/skills/backend/python.png";
@@ -18,6 +19,8 @@ import git from "../img/skills/other/git.png";
 import vercel from "../img/skills/other/vercel.png";
 import prisma from "../img/skills/other/prisma.svg";
 import railway from "../img/skills/other/railway.svg";
+import gimp from "../img/skills/other/gimp.png";
+import sceneBuilder from "../img/skills/other/sb.png";
 
 export default function Skills() {
   return (
@@ -28,8 +31,10 @@ export default function Skills() {
       >
         <h2 className="p-10 font-bold uppercase">Skills</h2>
         {/* Frontend */}
+        {/* Frontend */}
+        {/* Frontend */}
         <p className="font-mono font-light ">Frontend</p>
-        <div className="grid grid-cols-3 gap-x-3 md:grid-cols-6">
+        <div className="grid grid-cols-3 gap-x-3 sm:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img src={js} className="w-full h-16" alt="javascript logo" />
             <p className="text-[12px] text-center">JavaScript</p>
@@ -59,13 +64,15 @@ export default function Skills() {
             <p className="text-[12px] text-center">SCSS</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
-            <img src={tw} className="w-full h-16" alt="tailwind logo" />
+            <img src={tw} className="w-16 h-full" alt="tailwind logo" />
             <p className="text-[12px] text-center">Tailwind</p>
           </div>
         </div>
         {/* Backend */}
+        {/* Backend */}
+        {/* Backend */}
         <p className="font-mono font-light">Backend</p>
-        <div className="grid grid-cols-3 lg:grid-cols-6">
+        <div className="grid grid-cols-3 sm:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img
               src={sql}
@@ -75,12 +82,8 @@ export default function Skills() {
             <p className="text-[12px] text-center">SQL</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
-            <img
-              src={sql}
-              className="w-16 h-full bg-orange-300 rounded-full"
-              alt="sql logo"
-            />
-            <p className="text-[12px] text-center">SQL</p>
+            <img src={flask} className="w-16 h-full " alt="flask logo" />
+            <p className="text-[12px] text-center">Flask</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img src={java} className="w-full h-16" alt="java logo" />
@@ -100,8 +103,10 @@ export default function Skills() {
           </div>
         </div>
         {/* Other */}
+        {/* Other */}
+        {/* Other */}
         <p className="font-mono font-light">Other</p>
-        <div className="flex flex-wrap ">
+        <div className="grid grid-cols-3 sm:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img src={git} className="w-full h-16" alt="git logo" />
             <p className="text-[12px] text-center">Git</p>
@@ -129,6 +134,18 @@ export default function Skills() {
               alt="railway logo"
             />
             <p className="text-[12px] text-center">Railway</p>
+          </div>
+          <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
+            <img src={gimp} className="w-full h-16" alt="gimp logo" />
+            <p className="text-[12px] text-center">gimp</p>
+          </div>
+          <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
+            <img
+              src={sceneBuilder}
+              className="w-16 h-full"
+              alt="scene builder logo"
+            />
+            <p className="text-[9px] text-center">Scene Builder</p>
           </div>
         </div>
       </section>
