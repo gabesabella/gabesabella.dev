@@ -36,7 +36,8 @@ function App() {
 
   if (showNav) {
     mobileNav = "flex";
-    mobileNavItems = "absolute top-[70px] left-10 py-5";
+    mobileNavItems =
+      "absolute top-[70px] space-y-3 right-10 py-4 flex-col w-48 h-fit bg-skin-inverted text-skin-inverted opacity-95 rounded-lg";
   }
 
   const toggleTheme = () => {
@@ -51,7 +52,7 @@ function App() {
   return (
     <div className={`bg-skin-fill ${theme} w-screen`}>
       <div className="w-screen">
-        <nav className="flex px-10 py-5 text-skin-base bg-skin-muted">
+        <nav className={`flex px-10 py-5 text-skin-base bg-skin-muted`}>
           {/* container, hidden on small screens */}
           <div className="flex w-full">
             <Link to="/" smooth>
@@ -77,7 +78,7 @@ function App() {
           {/* Fullscreen Nav */}
           <div className={`sm:flex ${mobileNav}`}>
             <div
-              className={`flex sm:justify-end w-full space-x-4 md:space-x-8 sm:flex-row place-items-center ${mobileNavItems}`}
+              className={`flex sm:justify-end w-full sm:space-x-4 md:space-x-8 place-items-center ${mobileNavItems}`}
             >
               <Link to="#projects" smooth>
                 Projects
