@@ -38,17 +38,21 @@ export default function Skills() {
         </div>
         <div className="grid grid-cols-3 gap-5 sm:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={js} className="w-16 h-full" alt="javascript logo" />
+            <img src={js} className="object-cover w-16" alt="javascript logo" />
             <p className="text-[12px] text-center">JavaScript</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={ts} className="w-16 h-full" alt="typescroipt logo" />
+            <img
+              src={ts}
+              className="object-cover w-16"
+              alt="typescroipt logo"
+            />
             <p className="text-[12px] text-center">TypeScript</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
             <img
               src={react}
-              className="w-16 h-full p-2 bg-indigo-900 rounded"
+              className="object-cover h-16 p-2 bg-indigo-900 rounded"
               alt="react logo"
             />
             <p className="text-[12px] text-center">React</p>
@@ -58,11 +62,11 @@ export default function Skills() {
             <p className="text-[12px] text-center">HTML</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={sass} className="w-16 h-full" alt="sass logo" />
+            <img src={sass} className="object-cover h-16" alt="sass logo" />
             <p className="text-[12px] text-center">SCSS</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={tw} className="w-16 h-full" alt="tailwind logo" />
+            <img src={tw} className="object-cover w-16" alt="tailwind logo" />
             <p className="text-[12px] text-center">Tailwind</p>
           </div>
         </div>
@@ -76,25 +80,29 @@ export default function Skills() {
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
             <img
               src={sql}
-              className="w-16 h-full bg-orange-300 rounded-full"
+              className="object-cover w-16 py-2 rounded bg-sky-100"
               alt="sql logo"
             />
             <p className="text-[12px] text-center">SQL</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={flask} className="w-16 h-full p-1" alt="flask logo" />
+            <img
+              src={flask}
+              className="object-cover h-16 p-1"
+              alt="flask logo"
+            />
             <p className="text-[12px] text-center">Flask</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={java} className="w-16 h-full" alt="java logo" />
+            <img src={java} className="object-cover h-16" alt="java logo" />
             <p className="text-[12px] text-center">Java</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={python} className="w-16 h-full" alt="python logo" />
+            <img src={python} className="object-cover w-16" alt="python logo" />
             <p className="text-[12px] text-center">Python</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={django} className="w-16 h-full" alt="java logo" />
+            <img src={django} className="object-cover h-16" alt="java logo" />
             <p className="text-[12px] text-center">Django</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
@@ -110,21 +118,13 @@ export default function Skills() {
         </div>
         <div className="grid grid-cols-3 gap-5 sm:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={git} className="w-16 h-full" alt="git logo" />
+            <img src={git} className="object-cover w-16" alt="git logo" />
             <p className="text-[12px] text-center">Git</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
             <img
-              src={vercel}
-              className="w-16 h-full p-1 bg-purple-300 rounded"
-              alt="vercel logo"
-            />
-            <p className="text-[12px] text-center">Vercel</p>
-          </div>
-          <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img
               src={prisma}
-              className="w-16 h-full p-1 rounded bg-amber-300"
+              className="object-cover h-16 p-1"
               alt="prisma logo"
             />
             <p className="text-[12px] text-center">Primsa</p>
@@ -132,22 +132,30 @@ export default function Skills() {
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
             <img
               src={railway}
-              className="w-16 h-full bg-orange-500 rounded-full"
+              className="w-16 bg-orange-500 rounded-full object-fit"
               alt="railway logo"
             />
             <p className="text-[12px] text-center">Railway</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={gimp} className="w-16 h-full" alt="gimp logo" />
+            <img src={gimp} className="object-cover w-16" alt="gimp logo" />
             <p className="text-[12px] text-center">Gimp</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
             <img
+              src={vercel}
+              className="object-cover h-16 p-1"
+              alt="vercel logo"
+            />
+            <p className="text-[12px] text-center">Vercel</p>
+          </div>
+          <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
+            <img
               src={sceneBuilder}
-              className="w-16 h-full"
+              className="object-cover h-16"
               alt="scene builder logo"
             />
-            <p className="text-[9px] text-center">Scene Builder</p>
+            <p className="text-[10px] text-center">Scene Builder</p>
           </div>
         </div>
       </section>
