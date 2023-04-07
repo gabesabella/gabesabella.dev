@@ -36,7 +36,7 @@ export default function Skills() {
         <div className="flex sm:w-[690px] w-[320px]">
           <p className="py-2 font-mono font-light">Frontend</p>
         </div>
-        <div className="grid grid-cols-3 gap-5 sm:grid-cols-6">
+        <div className="grid grid-cols-3 gap-2 sm:gap-5 sm:grid-cols-6">
           <div className="flex flex-col justify-center text-center place-content-center w-fit">
             <img src={js} className="object-cover w-16" alt="javascript logo" />
             <p className="text-[12px] text-center">JavaScript</p>
@@ -76,7 +76,7 @@ export default function Skills() {
         <div className="flex sm:w-[690px] w-[320px]">
           <p className="py-2 font-mono font-light">Backend</p>
         </div>
-        <div className="grid grid-cols-3 gap-5 sm:grid-cols-6">
+        <div className="grid grid-cols-3 gap-2 sm:gap-5 sm:grid-cols-6">
           <div className="flex flex-col justify-center text-center place-content-center w-fit">
             <img
               src={sql}
