@@ -14,7 +14,7 @@ import p6m from "../img/projects/p6m.webp";
 
 export default function Projects() {
   return (
-    <div id="projects">
+    <section id="projects">
       <h2 className="pb-5 font-bold text-center uppercase lg:pb-24 text-skin-base">
         Projects
       </h2>
@@ -113,6 +113,6 @@ export default function Projects() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
