@@ -1,4 +1,5 @@
 import React from "react";
+// import Modal from "./Modal";
 import p1d from "../img/projects/p1d.webp";
 import p1m from "../img/projects/p1m.webp";
 import p2d from "../img/projects/p2d.webp";
@@ -15,6 +16,7 @@ import p6m from "../img/projects/p6m.webp";
 export default function Projects() {
   return (
     <section id="projects">
+      {/* <Modal></Modal> */}
       <h2 className="pb-5 font-bold text-center uppercase lg:pb-24 text-skin-base">
         Projects
       </h2>
