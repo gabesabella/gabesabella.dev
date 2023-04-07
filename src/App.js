@@ -37,7 +37,7 @@ function App() {
   if (showNav) {
     mobileNav = "flex";
     mobileNavItems =
-      "absolute top-[70px] space-y-3 right-0 py-4 flex-col w-32 bg-skin-inverted text-skin-inverted opacity-95 rounded-lg";
+      "absolute top-[70px] space-y-8 right-0 py-20 uppercase font-bold flex-col bg-skin-inverted text-skin-inverted";
   }
 
   const toggleTheme = () => {
@@ -71,12 +71,12 @@ function App() {
               className={`ease w-[30px] h-[2px] rounded-md bg-skin-inverted ${rotateLeft}`}
             ></div>
             <div
-              className={`ease w-[30px] h-[2px] rounded-md bg-skin-inverted ${invisible}`}
+              className={`w-[30px] h-[2px] rounded-md bg-skin-inverted ${invisible}`}
             ></div>
           </div>
 
           {/* Fullscreen Nav */}
-          <div className={`sm:flex ${mobileNav}`}>
+          <div className={`sm:flex ${mobileNav} ease`}>
             <div
               className={`flex sm:justify-end w-full sm:space-x-4 md:space-x-8 place-items-center ${mobileNavItems}`}
             >

@@ -10,7 +10,7 @@
     --color-fill: #ffffff;
     --color-fill-muted: #f7f7f7;
     --color-fill-inverted: #333333;
-    --color-text-primary: #104df5;
+    --color-text-primary: #32dbf2;
   }
 
   .theme-light {
@@ -26,7 +26,7 @@
   .theme-dark {
     --color-text-base: #ffffff;
     --color-text-muted: #9e9d9d;
-    --color-text-primary: #e48f10;
+    --color-text-primary: #f89e18;
     --color-text-inverted: #1a1734;
     --color-fill: #1a1734;
     --color-fill-muted: #1e1b3e;
