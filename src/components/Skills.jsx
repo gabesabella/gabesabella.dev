@@ -27,7 +27,7 @@ export default function Skills() {
     <>
       <section
         id="skills"
-        className="flex flex-col justify-center space-y-5 place-items-center text-skin-base"
+        className="flex flex-col justify-center px-10 space-y-5 place-items-center text-skin-base"
       >
         <h2 className="p-10 font-bold uppercase">Skills</h2>
         {/* Frontend */}
