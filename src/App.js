@@ -37,7 +37,7 @@ function App() {
   if (showNav) {
     mobileNav = "flex";
     mobileNavItems =
-      "absolute top-[70px] space-y-3 right-10 py-4 flex-col w-48 h-fit bg-skin-inverted text-skin-inverted opacity-95 rounded-lg";
+      "absolute top-[70px] space-y-3 right-0 py-4 flex-col w-32 bg-skin-inverted text-skin-inverted opacity-95 rounded-lg";
   }
 
   const toggleTheme = () => {
