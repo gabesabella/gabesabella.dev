@@ -40,12 +40,12 @@ export default function Contact() {
   };
 
   return (
-    <section className="contactForm">
+    <section className="contactForm" id="contact">
       <h2 className="pb-5 font-bold text-center uppercase text-skin-base">
         contact
       </h2>
       <div className="flex justify-center w-screen">
-        <div className="max-w-[900px] w-[90%]">
+        <div className="max-w-[800px] w-[90%]">
           <form ref={form} onSubmit={sendEmail}>
             <div className="flex flex-col space-y-3 text-skin-base">
               <label htmlFor="name" className="font-bold">
