@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import heroImage from "./img/profile.jpeg";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 
 import { HashLink as Link } from "react-router-hash-link";
@@ -122,7 +122,7 @@ function App() {
       ></Hero>
       <Projects></Projects>
       <Skills></Skills>
-      <Contact></Contact>
+      <ContactUs></ContactUs>
       <Footer title="© All rights reserved"></Footer>
     </div>
   );

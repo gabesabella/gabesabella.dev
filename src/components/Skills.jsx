@@ -34,7 +34,7 @@ export default function Skills() {
         {/* Frontend */}
         {/* Frontend */}
         <p className="font-mono font-light ">Frontend</p>
-        <div className="grid grid-cols-3 gap-x-3 sm:grid-cols-6">
+        <div className="grid grid-cols-3 gap-5 sm:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img src={js} className="w-full h-16" alt="javascript logo" />
             <p className="text-[12px] text-center">JavaScript</p>
@@ -55,10 +55,6 @@ export default function Skills() {
             <img src={html} className="w-full h-16" alt="html logo" />
             <p className="text-[12px] text-center">HTML</p>
           </div>
-          {/* <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
-            <img src={css} className="w-full h-16" alt="css logo" />
-            <p className="text-[12px] text-center">CSS</p>
-          </div> */}
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img src={sass} className="w-16 h-full" alt="sass logo" />
             <p className="text-[12px] text-center">SCSS</p>
@@ -72,7 +68,7 @@ export default function Skills() {
         {/* Backend */}
         {/* Backend */}
         <p className="font-mono font-light">Backend</p>
-        <div className="grid grid-cols-3 sm:grid-cols-6">
+        <div className="grid grid-cols-3 gap-1 sm:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img
               src={sql}
@@ -106,7 +102,7 @@ export default function Skills() {
         {/* Other */}
         {/* Other */}
         <p className="font-mono font-light">Other</p>
-        <div className="grid grid-cols-3 sm:grid-cols-6">
+        <div className="grid grid-cols-3 gap-1 sm:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img src={git} className="w-full h-16" alt="git logo" />
             <p className="text-[12px] text-center">Git</p>
@@ -130,14 +126,14 @@ export default function Skills() {
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img
               src={railway}
-              className="w-full h-16 bg-orange-500 rounded-full"
+              className="w-16 h-full bg-orange-500 rounded-full"
               alt="railway logo"
             />
             <p className="text-[12px] text-center">Railway</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img src={gimp} className="w-full h-16" alt="gimp logo" />
-            <p className="text-[12px] text-center">gimp</p>
+            <p className="text-[12px] text-center">Gimp</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
             <img

@@ -15,7 +15,9 @@ import p6m from "../img/projects/p6m.webp";
 export default function Projects() {
   return (
     <div id="projects">
-      <h2 className="pb-5 text-center uppercase text-skin-base">Projects</h2>
+      <h2 className="pb-5 text-center uppercase lg:pb-24 text-skin-base">
+        Projects
+      </h2>
       <div className="flex justify-center w-screen">
         <div className="grid gap-x-12 gap-y-12 md:gap-y-16 lg:gap-y-24 max-w-[1400px] grid-cols-1 md:grid-cols-2">
           <a
