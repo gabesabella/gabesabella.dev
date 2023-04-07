@@ -38,11 +38,11 @@ export default function Skills() {
         </div>
         <div className="grid grid-cols-3 gap-5 sm:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={js} className="w-full h-16" alt="javascript logo" />
+            <img src={js} className="w-16 h-full" alt="javascript logo" />
             <p className="text-[12px] text-center">JavaScript</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={ts} className="w-full h-16" alt="typescroipt logo" />
+            <img src={ts} className="w-16 h-full" alt="typescroipt logo" />
             <p className="text-[12px] text-center">TypeScript</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
@@ -86,11 +86,11 @@ export default function Skills() {
             <p className="text-[12px] text-center">Flask</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={java} className="w-full h-16" alt="java logo" />
+            <img src={java} className="w-16 h-full" alt="java logo" />
             <p className="text-[12px] text-center">Java</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={python} className="w-full h-16" alt="python logo" />
+            <img src={python} className="w-16 h-full" alt="python logo" />
             <p className="text-[12px] text-center">Python</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
@@ -110,7 +110,7 @@ export default function Skills() {
         </div>
         <div className="grid grid-cols-3 gap-5 sm:grid-cols-6">
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={git} className="w-full h-16" alt="git logo" />
+            <img src={git} className="w-16 h-full" alt="git logo" />
             <p className="text-[12px] text-center">Git</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
@@ -124,7 +124,7 @@ export default function Skills() {
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
             <img
               src={prisma}
-              className="w-full h-16 p-1 rounded bg-amber-300"
+              className="w-16 h-full p-1 rounded bg-amber-300"
               alt="prisma logo"
             />
             <p className="text-[12px] text-center">Primsa</p>
@@ -138,7 +138,7 @@ export default function Skills() {
             <p className="text-[12px] text-center">Railway</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
-            <img src={gimp} className="w-full h-16" alt="gimp logo" />
+            <img src={gimp} className="w-16 h-full" alt="gimp logo" />
             <p className="text-[12px] text-center">Gimp</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center place-content-center w-fit">
