@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 
-export default function ContactUs() {
+export default function Contact() {
   const form = useRef();
 
   const toastifySuccess = () => {
@@ -41,12 +41,16 @@ export default function ContactUs() {
 
   return (
     <section className="contactForm">
-      <h2 className="text-center uppercase text-skin-base">contact</h2>
+      <h2 className="pb-5 font-bold text-center uppercase text-skin-base">
+        contact
+      </h2>
       <div className="flex justify-center w-screen">
         <div className="max-w-[900px] w-[90%]">
           <form ref={form} onSubmit={sendEmail}>
             <div className="flex flex-col space-y-3 text-skin-base">
-              <label htmlFor="name">Email</label>
+              <label htmlFor="name" className="font-bold">
+                Email
+              </label>
               <input
                 type="text"
                 id="name"
@@ -54,7 +58,9 @@ export default function ContactUs() {
                 className="rounded bg-skin-fill text-skin-base"
                 placeholder="your@email.com"
               />
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message" className="font-bold">
+                Message
+              </label>
               <textarea
                 className="font-mono rounded bg-skin-fill text-skin-base"
                 name="message"

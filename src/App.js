@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import heroImage from "./img/profile.jpeg";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import ContactUs from "./components/ContactUs";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import { HashLink as Link } from "react-router-hash-link";
@@ -55,7 +55,9 @@ function App() {
           {/* container, hidden on small screens */}
           <div className="flex w-full">
             <Link to="/" smooth>
-              <a href="/">Gabriel Sabella</a>
+              <a href="/" className="font-mono text-2xl">
+                GS
+              </a>
             </Link>
           </div>
 
@@ -122,7 +124,7 @@ function App() {
       ></Hero>
       <Projects></Projects>
       <Skills></Skills>
-      <ContactUs></ContactUs>
+      <Contact></Contact>
       <Footer title="© All rights reserved"></Footer>
     </div>
   );

@@ -78,7 +78,7 @@ export default function Skills() {
             <p className="text-[12px] text-center">SQL</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
-            <img src={flask} className="w-16 h-full " alt="flask logo" />
+            <img src={flask} className="w-16 h-full p-1" alt="flask logo" />
             <p className="text-[12px] text-center">Flask</p>
           </div>
           <div className="flex flex-col justify-center p-2 text-center shadow-lg place-content-center w-fit">
