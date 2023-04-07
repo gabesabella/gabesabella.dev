@@ -33,7 +33,7 @@ export default function Skills() {
         {/* Frontend */}
         {/* Frontend */}
         {/* Frontend */}
-        <div className="flex sm:w-[564px] w-[262px]">
+        <div className="flex sm:w-[690px] w-[320px]">
           <p className="font-mono font-light">Frontend</p>
         </div>
         <div className="grid grid-cols-3 gap-5 sm:grid-cols-6">
@@ -73,7 +73,7 @@ export default function Skills() {
         {/* Backend */}
         {/* Backend */}
         {/* Backend */}
-        <div className="flex sm:w-[564px] w-[262px]">
+        <div className="flex sm:w-[690px] w-[320px]">
           <p className="font-mono font-light">Backend</p>
         </div>
         <div className="grid grid-cols-3 gap-5 sm:grid-cols-6">
@@ -113,7 +113,7 @@ export default function Skills() {
         {/* Other */}
         {/* Other */}
         {/* Other */}
-        <div className="flex sm:w-[564px] w-[262px]">
+        <div className="flex sm:w-[690px] w-[320px]">
           <p className="font-mono font-light">Other</p>
         </div>
         <div className="grid grid-cols-3 gap-5 sm:grid-cols-6">
