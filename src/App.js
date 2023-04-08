@@ -6,8 +6,8 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
+import pdf from "./documents/resume.pdf";
 
 function App() {
   let [isDarkMode, setIsDarkMode] = useState(false);
@@ -55,11 +55,11 @@ function App() {
         <nav className={`flex px-10 py-5 text-skin-base bg-skin-muted`}>
           {/* container, hidden on small screens */}
           <div className="flex w-full">
-            <Link to="/" smooth>
+            <HashLink to="/" smooth>
               <a href="/" className="font-mono text-2xl">
                 GS
               </a>
-            </Link>
+            </HashLink>
           </div>
 
           {/* Hamburger */}
@@ -80,18 +80,17 @@ function App() {
             <div
               className={`flex sm:justify-end w-full sm:space-x-4 md:space-x-8 place-items-center ${mobileNavItems}`}
             >
-              <Link to="#projects" smooth>
+              <HashLink to="#projects" smooth>
                 Projects
-              </Link>
-              <Link to="#skills" smooth>
+              </HashLink>
+              <HashLink to="#skills" smooth>
                 Skills
-              </Link>
-              <Link to="#contact" smooth>
+              </HashLink>
+              <HashLink to="#contact" smooth>
                 Contact
-              </Link>
-              <Link to="/about">
-                <a href="/">Resume</a>
-              </Link>
+              </HashLink>
+
+              <a href={pdf}>Resume</a>
 
               <input
                 type="checkbox"

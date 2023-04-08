@@ -107,7 +107,7 @@ export default function Skills() {
           </div>
           <div className="flex flex-col justify-center text-center place-content-center w-fit">
             <img src={mongo} className="w-full h-16" alt="mongo logo" />
-            <p className="text-[12px] text-center">Mongo</p>
+            <p className="text-[12px] text-center">MongoDB</p>
           </div>
         </div>
         {/* Other */}
