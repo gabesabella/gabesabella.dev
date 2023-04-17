@@ -40,7 +40,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="contactForm" id="contact">
+    <section className="contactForm bg-skin-fill" id="contact">
       <h2 className="pb-5 font-bold text-center uppercase text-skin-base">
         contact
       </h2>

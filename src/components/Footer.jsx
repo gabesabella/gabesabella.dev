@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
-import { IoNewspaperOutline } from "react-icons/io5";
+import { BsPersonWorkspace } from "react-icons/bs";
 
 export default function Footer(props) {
   return (
@@ -24,7 +24,7 @@ export default function Footer(props) {
           </a>
           <a href="https://gabesresume.vercel.app/">
             <div className="p-3 rounded-full bg-skin-inverted text-skin-inverted hover:brightness-110">
-              <IoNewspaperOutline></IoNewspaperOutline>
+              <BsPersonWorkspace />
             </div>
           </a>
         </div>
