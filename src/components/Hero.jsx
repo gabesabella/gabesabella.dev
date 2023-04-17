@@ -13,7 +13,7 @@ export default function Hero(props) {
                 Hi, my name is
               </p>
               <div className="space-y-0 lg:space-y-5">
-                <h1 className="font-bold">{props.h1}</h1>
+                <h1 className="font-semibold">{props.h1}</h1>
                 <h2 className="font-semibold text-skin-muted">{props.h2}</h2>
               </div>
             </div>
