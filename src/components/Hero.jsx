@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero(props) {
   return (
-    <section className="translate-y-[80px] pb-24 xl:py-36 bg-red-500">
+    <section className="translate-y-[80px] pb-24 xl:py-36">
       <div
         className={`flex justify-center w-screen place-items-center flex-wrap-reverse md:space-x-[5%] lg:space-x-[10%] space-x-0 md:flex-nowrap`}
       >
