@@ -11,43 +11,18 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 function App() {
   let [isDarkMode, setIsDarkMode] = useState(false);
-  let [isRotated, setIsRotated] = useState(false);
-  let [showNav, setShowNav] = useState(false);
 
-  let theme,
-    moveBarDown,
-    invisible,
-    mobileNavItems = "";
-
-  let mobileNav = "hidden";
+  let theme = "";
 
   if (isDarkMode) {
     theme = "theme-dark ";
   }
 
-  if (isRotated) {
-    rotateRight = "rotate-[135deg]";
-    rotateLeft = "rotate-45";
-    moveBarDown = "translate-y-[10px]";
-    invisible = "opacity-0";
-  }
-
-  if (showNav) {
-    mobileNav = "flex";
-    mobileNavItems =
-      "absolute top-[70px] space-y-8 right-0 py-20 uppercase font-bold flex-col bg-skin-inverted text-skin-inverted";
-  }
-
-  const [nav, toggleNav] = useState(false);
   let [rotateRight, setRotateRight] = useState(false);
   let [rotateLeft, setRotateLeft] = useState(false);
   let [navHeight, setNavHeight] = useState(false);
   let [opacity, setOpacity] = useState(false);
   let [hidden, setHidden] = useState(false);
-
-  const toggleMenu = () => {
-    toggleNav(!nav);
-  };
 
   const handleHamburger = () => {
     setRotateLeft(!rotateLeft);
@@ -129,8 +104,8 @@ function App() {
 
       <Hero
         h1="Gabriel Sabella"
-        h2="Web Developer"
-        description="Hi, I'm Gabe, a frontend developer focused on creating beautiful web applications while writing clean code. "
+        h2="I design and build websites."
+        description="I'm a software engineer specializing in building beautiful websites that help businesses grow. I am passionate about creating exceptional user experiences while writing clean, reusable code."
         image={heroImage}
         imageAlt="some description"
       ></Hero>

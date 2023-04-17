@@ -8,7 +8,7 @@ export default function Footer(props) {
     <>
       <div className="flex flex-col justify-center w-full py-10 space-y-4 bg-skin-muted text-skin-base place-items-center">
         <p className="font-mono text-lg">
-          {new Date().getFullYear()} - Gabe Sabella
+          {new Date().getFullYear()} - Gabriel Sabella
         </p>
 
         <div className="flex space-x-8 text-lg">
