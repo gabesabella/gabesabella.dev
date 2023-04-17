@@ -77,20 +77,20 @@ function App() {
         <div
           className={`transition-all duration-200 ease-in-out flex flex-col text-3xl mx-10 mt-24 opacity-0 absolute ${hidden} space-y-7`}
         >
-          <HashLink to="#projects" smooth>
+          <HashLink to="#projects" smooth onClick={handleHamburger}>
             Projects
           </HashLink>
-          <HashLink to="#skills" smooth>
+          <HashLink to="#skills" smooth onClick={handleHamburger}>
             Skills
           </HashLink>
-          <HashLink to="#contact" smooth>
+          <HashLink to="#contact" smooth onClick={handleHamburger}>
             Contact
           </HashLink>
-          <a href="#">
-            <AiFillGithub className="text-3xl" />
+          <a href="https://github.com/gabesabella">
+            <AiFillGithub className="text-3xl" onClick={handleHamburger} />
           </a>
-          <a href="#">
-            <FaLinkedinIn className="text-2xl" />
+          <a href="https://www.linkedin.com/in/gabriel-sabella-188311260/">
+            <FaLinkedinIn className="text-2xl" onClick={handleHamburger} />
           </a>
         </div>
         <div className="flex w-full h-10 place-items-center">
